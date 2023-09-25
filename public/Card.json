@@ -1,0 +1,122 @@
+[
+      {
+            "picture": "https://i.ibb.co/2P0SgFs/item1.jpg",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052FF26",
+            "card_bg": "#0034FF33",
+            "text_button_bg": "#0052FF",
+            "description": "Access to clean water is vital for the well-being of children worldwide. Clean water ensures their health, hydration, and overall quality of life. In many regions, children face the dire consequences of waterborne diseases due to contaminated water sources. Providing clean water for children involves implementing purification systems, safe storage, and accessible infrastructure. It means safeguarding their future, enabling them to thrive without the burden of preventable illnesses caused by dirty water. Ensuring clean water for children is not just a basic necessity; it's an essential step towards building healthier, happier, and more prosperous communities for generations to come.",
+            "price": 499.99
+      },
+      {
+            "picture": "https://i.ibb.co/F0cbX93/item2.jpg",
+            "title": "Good education",
+            "category": "Education",
+            "category_bg": " #FF444A26",
+            "card_bg": "#FF444A33",
+            "text_button_bg": "#FF444A",
+            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": 39.99
+      },
+      {
+            "picture": "https://i.ibb.co/wyCnBFT/item3.jpg",
+            "title": "Used Clothing Drive",
+            "category": "Clothing",
+            "category_bg": "#79C23F26 ",
+            "card_bg": "#79C23F33",
+            "text_button_bg": "#79C23F",
+            "description": "A 'Used Clothing Drive' is a community-driven initiative aimed at collecting gently used clothing items from individuals and organizations to distribute them to those in need. These drives play a vital role in promoting sustainability, as they reduce clothing waste and extend the lifespan of garments. By donating clothes to such drives, people contribute to a more environmentally friendly world while also helping less fortunate individuals access essential clothing. Used Clothing Drives foster a sense of goodwill, unity, and social responsibility within communities, as people come together to support those facing economic hardship, ensuring that warmth and comfort reach those who need it most.",
+            "price": 29.99
+      },
+      {
+            "picture": "https://i.ibb.co/kD1n1NP/item4.jpg",
+            "title": "Better Food for Everyone",
+            "category": "Food",
+            "category_bg": "#F8714726",
+            "card_bg": " #F8714733",
+            "text_button_bg": "#F87147",
+            "description": "The mission of 'Better Food for Everyone' is to enhance the quality of nutrition and food accessibility for all individuals. This initiative seeks to address the disparities in access to nutritious meals, promote healthy eating habits, and combat food insecurity. 'Better Food for Everyone' strives to improve the well-being of communities by advocating for sustainable agriculture, supporting local food systems, and raising awareness about the importance of balanced diets. By ensuring that everyone has access to better food choices, this movement aims to enhance overall health, reduce inequalities, and foster a culture of wellness where nutritious food becomes a fundamental right rather than a privilege.",
+            "price": 15.99
+      },
+      {
+            "picture": "https://i.ibb.co/kD1n1NP/item4.jpg",
+            "title": "Better Food for Everyone",
+            "category": "Food",
+            "category_bg": "#F8714738",
+            "card_bg": " #F8714733",
+            "text_button_bg": "#F87147",
+            "description": "The mission of 'Better Food for Everyone' is to enhance the quality of nutrition and food accessibility for all individuals. This initiative seeks to address the disparities in access to nutritious meals, promote healthy eating habits, and combat food insecurity. 'Better Food for Everyone' strives to improve the well-being of communities by advocating for sustainable agriculture, supporting local food systems, and raising awareness about the importance of balanced diets. By ensuring that everyone has access to better food choices, this movement aims to enhance overall health, reduce inequalities, and foster a culture of wellness where nutritious food becomes a fundamental right rather than a privilege.",
+            "price": 15.99
+      },
+      {
+            "picture": "https://i.ibb.co/wyCnBFT/item3.jpg",
+            "title": "Used Clothing Drive",
+            "category": "Clothing",
+            "category_bg": "#79C23F26",
+            "card_bg": "#79C23F33",
+            "text_button_bg": "#79C23F",
+            "description": "A 'Used Clothing Drive' is a community-driven initiative aimed at collecting gently used clothing items from individuals and organizations to distribute them to those in need. These drives play a vital role in promoting sustainability, as they reduce clothing waste and extend the lifespan of garments. By donating clothes to such drives, people contribute to a more environmentally friendly world while also helping less fortunate individuals access essential clothing. Used Clothing Drives foster a sense of goodwill, unity, and social responsibility within communities, as people come together to support those facing economic hardship, ensuring that warmth and comfort reach those who need it most.",
+            "price": 29.99
+      },
+      {
+            "picture": "https://i.ibb.co/F0cbX93/item2.jpg",
+            "title": "Good education",
+            "category": "Education",
+            "category_bg": "#FF444A26",
+            "card_bg": "#FF444A33",
+            "text_button_bg": "#FF444A",
+            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": 39.99
+      },
+      {
+            "picture": "https://i.ibb.co/2P0SgFs/item1.jpg",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052FF26",
+            "card_bg": "#0034FF33",
+            "text_button_bg": "#0052FF",
+            "description": "Access to clean water is vital for the well-being of children worldwide. Clean water ensures their health, hydration, and overall quality of life. In many regions, children face the dire consequences of waterborne diseases due to contaminated water sources. Providing clean water for children involves implementing purification systems, safe storage, and accessible infrastructure. It means safeguarding their future, enabling them to thrive without the burden of preventable illnesses caused by dirty water. Ensuring clean water for children is not just a basic necessity; it's an essential step towards building healthier, happier, and more prosperous communities for generations to come.",
+            "price": 499.99
+      },
+      {
+            "picture": "https://i.ibb.co/2P0SgFs/item1.jpg",
+            "title": "Clean water for children",
+            "category": "Health",
+            "category_bg": "#0052FF26",
+            "card_bg": "#0034FF33",
+            "text_button_bg": "#0052FF",
+            "description": "Access to clean water is vital for the well-being of children worldwide. Clean water ensures their health, hydration, and overall quality of life. In many regions, children face the dire consequences of waterborne diseases due to contaminated water sources. Providing clean water for children involves implementing purification systems, safe storage, and accessible infrastructure. It means safeguarding their future, enabling them to thrive without the burden of preventable illnesses caused by dirty water. Ensuring clean water for children is not just a basic necessity; it's an essential step towards building healthier, happier, and more prosperous communities for generations to come.",
+            "price": 499.99
+      },
+      {
+            "picture": "https://i.ibb.co/F0cbX93/item2.jpg",
+            "title": "Good education",
+            "category": "Education",
+            "category_bg": "#FF444A26",
+            "card_bg": " #FF444A33",
+            "text_button_bg": "#FF444A",
+            "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+            "price": 39.99
+      },
+      {
+            "picture": "https://i.ibb.co/wyCnBFT/item3.jpg",
+            "title": "Used Clothing Drive",
+            "category": "Clothing",
+            "category_bg": "#79C23F26",
+            "card_bg": "#79C23F33",
+            "text_button_bg": "#79C23F",
+            "description": "A 'Used Clothing Drive' is a community-driven initiative aimed at collecting gently used clothing items from individuals and organizations to distribute them to those in need. These drives play a vital role in promoting sustainability, as they reduce clothing waste and extend the lifespan of garments. By donating clothes to such drives, people contribute to a more environmentally friendly world while also helping less fortunate individuals access essential clothing. Used Clothing Drives foster a sense of goodwill, unity, and social responsibility within communities, as people come together to support those facing economic hardship, ensuring that warmth and comfort reach those who need it most.",
+            "price": 29.99
+      },
+      {
+            "picture": "https://i.ibb.co/kD1n1NP/item4.jpg",
+            "title": "Better Food for Everyone",
+            "category": "Food",
+            "category_bg": "#F8714738",
+            "card_bg": "#F8714733",
+            "text_button_bg": "#F87147",
+            "description": "The mission of 'Better Food for Everyone' is to enhance the quality of nutrition and food accessibility for all individuals. This initiative seeks to address the disparities in access to nutritious meals, promote healthy eating habits, and combat food insecurity. 'Better Food for Everyone' strives to improve the well-being of communities by advocating for sustainable agriculture, supporting local food systems, and raising awareness about the importance of balanced diets. By ensuring that everyone has access to better food choices, this movement aims to enhance overall health, reduce inequalities, and foster a culture of wellness where nutritious food becomes a fundamental right rather than a privilege.",
+            "price": 15.99
+      }
+]
