@@ -1,7 +1,14 @@
+import { Link } from "react-router-dom";
+import Description from "../Description/Description";
 
 
 const DonationCard = ({ card }) => {
       const { picture, title, category, category_bg, card_bg, id, text_button_bg, price } = card || {};
+
+      const handleViewDetails = () => {
+
+      };
+
 
       return (
 
@@ -18,7 +25,10 @@ const DonationCard = ({ card }) => {
                               <p className="font-bold text-[24px]" >{title}</p>
                               <p className="mb-3 font-semibold text-[16px] " style={{ color: text_button_bg }}>{price} $</p>
                               <div className="flex cursor-pointer">
-                                    <p className="text-[14px] text-white py-2 px-[9px]  rounded font-bold flex-grow-0" style={{ backgroundColor: text_button_bg }}>View Details</p>
+                                    <Link to={`/Description/${id}`}>
+                                          <p onClick={handleViewDetails} className="text-[14px] text-white py-2 px-[9px]  rounded font-bold flex-grow-0" style={{ backgroundColor: text_button_bg }}>View Details</p>
+
+                                    </Link>
                               </div>
 
                         </div>

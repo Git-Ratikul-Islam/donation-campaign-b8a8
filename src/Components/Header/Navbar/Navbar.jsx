@@ -13,7 +13,7 @@ const Navbar = () => {
                   <div className="">
 
                         <div className="" >
-                              <div className="navbar flex justify-between w-5/6 mx-auto " >
+                              <div className="navbar flex justify-evenly gap-20 w-6/6 mx-auto " >
                                     <div className="navbar-start">
                                           <div className="dropdown sm:flex">
                                                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -62,7 +62,7 @@ const Navbar = () => {
                                                 <img className="h-[60px] w-[200px] " src="https://i.ibb.co/Ytrtqh4/Logo.png" alt="" />
                                           </div>
                                     </div>
-                                    <div className="navbar-center hidden lg:flex mr-[52px]">
+                                    <div className="navbar-center hidden lg:flex relative  md:left-10">
                                           <ul className="">
 
                                                 <li className="menu menu-horizontal px-1">
