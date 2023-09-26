@@ -5,8 +5,6 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
-
-
       return (
             <>
 
@@ -59,7 +57,7 @@ const Navbar = () => {
                                           </div>
 
                                           <div className="">
-                                                <img className="h-[60px] w-[200px] " src="https://i.ibb.co/Ytrtqh4/Logo.png" alt="" />
+                                                <img className="h-[60px] w-[200px] " src="https://i.ibb.co/jbCMSq1/Logo.png" alt="" />
                                           </div>
                                     </div>
                                     <div className="navbar-center hidden lg:flex relative  md:left-10">

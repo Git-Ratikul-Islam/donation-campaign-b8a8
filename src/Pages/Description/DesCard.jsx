@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const DesCard = ({ descriptionCard }) => {
@@ -15,10 +16,12 @@ const DesCard = ({ descriptionCard }) => {
                         <div>
                               <div className="relative bottom-[120px]  inset-x-0 ">
                                     <div className="bg-black bg-opacity-50 h-[120px] rounded-lg rounded-t-none p-4 ">
-                                          <button className="btn relative left-4 top-5 border-none text-white text-sm" style={{ backgroundColor: text_button_bg }}>
-                                                Donate
-                                                <small className="text-sm">${price}</small>
-                                          </button>
+                                          <Link to="/Donation">
+                                                <button className="btn relative left-4 top-5 border-none text-white text-sm" style={{ backgroundColor: text_button_bg }}>
+                                                      Donate
+                                                      <small className="text-sm">${price}</small>
+                                                </button>
+                                          </Link>
                                     </div>
                               </div>
 

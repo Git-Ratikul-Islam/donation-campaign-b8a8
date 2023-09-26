@@ -30,7 +30,8 @@ const myCreatedRoute = createBrowserRouter([
                   },
                   {
                         path: '/Statistics',
-                        element: <Statistics></Statistics>
+                        element: <Statistics></Statistics>,
+                        loader: () => fetch('/Card.json')
                   }
 
             ]

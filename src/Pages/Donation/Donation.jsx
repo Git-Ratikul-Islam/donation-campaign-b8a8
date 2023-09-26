@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import DonationCard from "./DonationCard";
-import { key } from "localforage";
+
 
 
 const Donation = () => {
@@ -32,14 +31,6 @@ const Donation = () => {
       console.log(donation);
       console.log(isShow);
 
-
-
-
-
-
-
-
-
       return (
 
             <div >
@@ -56,7 +47,8 @@ const Donation = () => {
                                     }
                               </div>
                               <div >
-                                    {donation.length > 3 && <button onClick={() => setIsShow(!isShow)} className="btn block mx-auto bg-[#009444] text-white hover:text-black mt-10">See all</button>}
+                                    {donation.length > 4 && !isShow && <button onClick={() => setIsShow(true)} className="btn block mx-auto bg-[#009444] text-white hover:text-black mt-10">See all</button>}
+
                               </div>
 
                         </div>}
