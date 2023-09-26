@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
-import './Nav.css';
+// import './Nav.css';
+
 
 
 const Navbar = () => {
@@ -9,9 +10,9 @@ const Navbar = () => {
       return (
             <>
 
-                  <div className="nav">
+                  <div className="">
 
-                        <div className="h-[600px]" >
+                        <div className="" >
                               <div className="navbar flex justify-between w-5/6 mx-auto " >
                                     <div className="navbar-start">
                                           <div className="dropdown sm:flex">
@@ -99,7 +100,8 @@ const Navbar = () => {
                                     </div>
 
                               </div>
-                              <div className="text-center ">
+
+                              {/* <div className="text-center ">
                                     <h2 className="text-[48px] font-bold text-center mt-[145px]">I Grow By Helping People In Need</h2>
                                     <div className="join mt-[40px]">
                                           <div>
@@ -111,7 +113,7 @@ const Navbar = () => {
                                                 <button className="btn join-item bg-[#FF444A] text-white hover:bg-[#79C23F]">Search</button>
                                           </div>
                                     </div>
-                              </div>
+                              </div> */}
 
                         </div>
                   </div >
