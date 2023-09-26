@@ -13,12 +13,15 @@ const DesCard = ({ descriptionCard }) => {
                               />
                         </div>
                         <div>
-                              <button className="btn  border-none text-white text-sm relative bottom-20 left-8" style={{ backgroundColor: text_button_bg }}>
-                                    Donate
+                              <div className="relative bottom-[120px]  inset-x-0 ">
+                                    <div className="bg-black bg-opacity-50 h-[120px] rounded-lg rounded-t-none p-4 ">
+                                          <button className="btn relative left-4 top-5 border-none text-white text-sm" style={{ backgroundColor: text_button_bg }}>
+                                                Donate
+                                                <small className="text-sm">${price}</small>
+                                          </button>
+                                    </div>
+                              </div>
 
-                                    <small className="text-sm">${price}</small>
-
-                              </button>
                         </div>
                         <div>
                               <h1>{title}</h1>
