@@ -18,6 +18,7 @@ const Donation = () => {
 
       const [donation, setDonations] = useState([]);
       const [noFound, setNoFound] = useState("");
+      const [isShow, setIsShow] = useState(false);
 
       useEffect(() => {
             const cardItems = JSON.parse(localStorage.getItem('cards'));
@@ -29,6 +30,7 @@ const Donation = () => {
             }
       }, []);
       console.log(donation);
+      console.log(isShow);
 
 
 
@@ -44,10 +46,17 @@ const Donation = () => {
                   {noFound ? <p className="h-[80vh] flex justify-center items-center">{noFound}</p>
                         :
                         <div>
-                              {donation.length > 0 && <button>Delete All</button>}
 
-                              <div className="grid grid-cols-1 md:grid-cols-2  gap-5 ">
-                                    {donation.map(card => <DonationCard key={card.id} card={card}></DonationCard>)}
+
+                              <div className="grid grid-cols-1 md:grid-cols-2  gap-5 mt-[100px]">
+                                    {isShow ? donation.map(card => <DonationCard key={card.id} card={card}></DonationCard>)
+                                          :
+                                          donation.slice(0, 4).map(card => <DonationCard key={card.id} card={card}></DonationCard>)
+
+                                    }
+                              </div>
+                              <div >
+                                    <button onClick={() => setIsShow(!isShow)} className="btn block mx-auto bg-[#009444] text-white hover:text-black mt-10">See all</button>
                               </div>
 
                         </div>}

@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Swal from 'sweetalert2';
 
 const Card = ({ card }) => {
       const { picture, title, category, category_bg, card_bg, text_button_bg, id } = card || {};
@@ -11,11 +10,7 @@ const Card = ({ card }) => {
             if (!cardItems) {
                   addedCardArray.push(card);
                   localStorage.setItem('cards', JSON.stringify(addedCardArray));
-                  Swal.fire(
-                        'Good job!',
-                        'You clicked the button!',
-                        'success'
-                  );
+
 
             }
             else {
@@ -25,7 +20,7 @@ const Card = ({ card }) => {
                   if (!isExist) {
                         addedCardArray.push(...cardItems, card);
                         localStorage.setItem('cards', JSON.stringify(addedCardArray));
-                        // alert("already added");
+
 
                   }
                   else {
