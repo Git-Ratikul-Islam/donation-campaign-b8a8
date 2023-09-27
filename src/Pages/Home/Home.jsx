@@ -8,9 +8,6 @@
 // const Home = () => {
 //       const cards = useLoaderData();
 //       // console.log(cards);
-
-
-
 //       return (
 //             <>
 //                   <div className="">
@@ -29,10 +26,6 @@
 //                                     </div>
 //                               </div>
 //                         </div>
-
-
-
-
 //                   </div>
 //                   <Cards cards={cards}></Cards>
 //             </>
