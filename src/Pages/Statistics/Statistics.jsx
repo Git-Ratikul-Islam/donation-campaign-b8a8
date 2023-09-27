@@ -6,15 +6,13 @@ const Statistics = () => {
       const [data1, setData1] = useState([]);
 
       useEffect(() => {
-            // Assuming you are fetching data1 using some method
-            // Replace this with your actual data fetching logic
             const fetchData1 = async () => {
-                  // Fetch data1
-                  const response = await fetch("/Card.json"); // Replace with the actual path
+
+                  const response = await fetch("/Card.json");
                   const data = await response.json();
                   setData1(data);
 
-                  // Calculate totalPrice
+
                   const donateItem = JSON.parse(localStorage.getItem('donat'));
                   if (donateItem) {
                         const total = donateItem.reduce((pre, curr) => pre + curr.price, 0);
@@ -26,13 +24,9 @@ const Statistics = () => {
             fetchData1();
       }, []);
 
-      // Calculate allTotal
       const allTotal = data1.reduce((pre, curr) => pre + curr.price, 0);
-
-      // Calculate finalTotal
       const finalTotal = (100 - parseFloat(totalPrice)).toFixed(2);
 
-      // Define the chart data
       const data = [
             { name: 'Total Price', value: parseFloat(finalTotal) },
             { name: 'Donate', value: parseFloat(totalPrice) },

@@ -27,7 +27,7 @@ const DesCard = ({ descriptionCard }) => {
 
                         </div>
                         <div>
-                              <h1>{title}</h1>
+                              <h1 className="text-[40px] font-bold">{title}</h1>
                               <p>{description}</p>
                         </div>
 
